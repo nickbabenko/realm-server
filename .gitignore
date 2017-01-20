@@ -1,0 +1,4 @@
+*.realm*
+realm-object-server
+node_modules
+.idea
