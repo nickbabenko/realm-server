@@ -123,7 +123,7 @@ class RealmServer {
 
     listen() {
         this.app.listen(this.port, () => {
-            console.log('RealmServer now listening on port 3030');
+            console.log('RealmServer now listening on port ' + this.port);
         });
     }
 
